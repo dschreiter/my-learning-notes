@@ -1,0 +1,8 @@
+When you create a new branch and push it for the first time using:
+
+    "git push -u origin <branch-name>"
+
+
+Git automatically sets up the upstream relationship, 
+associating your local branch with the corresponding remote branch
+This makes it convenient for subsequent pulls and pushes without specifying the branch name.

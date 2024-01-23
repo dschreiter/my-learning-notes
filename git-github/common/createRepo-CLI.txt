@@ -1,0 +1,25 @@
+# Create a GitHub Repo:
+    gh repo create
+
+# Navigate to Your Project Directory:
+    cd <your-project-directory>
+
+# Initialize a New Git Repository:
+    git init
+
+# Create a New File and Add Content:
+    touch <file-name>
+echo "Hello, GitHub!" > <file-name>
+
+# Add and Commit Changes:
+    git add .
+    git commit -m "Initial commit"
+
+#Push Changes to GitHub:
+    git push origin main
+        OR
+    git push origin myFeatureBranch
+
+
+git push -u origin main
+Ensure you replace <username>, <repo-name>, <your-project-directory>, and <file-name> with your specific details.

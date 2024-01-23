@@ -1,0 +1,12 @@
+# create = touch old.txt
+
+# read whole file = cat filename 
+# read partial = less filename
+
+# rename = mv old.txt new.txt
+
+# delete
+rm filename
+
+
+bitch

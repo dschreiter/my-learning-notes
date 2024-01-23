@@ -1,0 +1,27 @@
+
+pipes - Pipes are used to pass the output of one command as input to another command.
+grep -
+flags - Flags can be used to change the behaviour of a command.
+
+The standard input/output (I/O) streams are:
+
+1. stdin (Standard Input):
+
+stdin is the standard input stream, representing the source of input for a program. 
+It is typically connected to the keyboard.
+
+
+
+2. stdout (Standard Output):
+
+stdout is the standard output stream, representing the default destination for normal output from a program. 
+It is usually connected to the display or console where the program is run.
+
+
+
+
+
+3. stderr (Standard Error):
+
+stderr is the standard error stream, used for error messages and diagnostics. 
+Like stdout, it is typically connected to the display or console.

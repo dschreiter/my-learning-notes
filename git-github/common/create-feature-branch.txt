@@ -1,0 +1,30 @@
+
+To create a feature branch off the main branch, you can follow these steps using Git:
+
+Ensure You're on the Main Branch:
+    1. git checkout main
+
+Pull the Latest Changes from the Main Branch:
+    2. git pull origin main
+
+Create and Switch to Your Feature Branch:
+    3. git checkout -b <feature-branch-name>
+
+Make Changes and Commit:
+Make your changes in the feature branch and commit them:
+
+    git add .
+    git commit -m "Your commit message here"
+
+Push the Feature Branch to the Remote Repository:
+    git push -u origin <feature-branch-name>
+
+This command pushes the feature branch to the remote repository and sets up the upstream relationship.
+
+Now, you have a feature branch created from the main branch, and you can continue working on your feature.
+If you need to update your feature branch with the latest changes from the main branch later, 
+you can follow:
+
+git checkout <feature-branch-name>
+git pull origin main
+This ensures your feature branch stays up-to-date with the changes in the main branch.

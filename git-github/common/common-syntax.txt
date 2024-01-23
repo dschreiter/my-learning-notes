@@ -1,0 +1,56 @@
+
+# git init: 
+Initializes a new Git repository.
+
+# git clone <repository>: 
+Clones a repository into a new directory.
+
+# git add <file>: 
+Adds changes in a file to the staging area.
+
+# git commit -m "message": 
+Commits the changes in the staging area with a message.
+
+# git status: 
+Shows the status of changes as untracked, modified, or staged.
+
+# git pull: 
+Fetches changes from a remote repository and merges them.
+
+# git push: 
+Pushes committed changes to a remote repository.
+
+# git branch: 
+Lists all local branches in the repository.
+
+# git checkout <branch>: 
+Switches to a different branch.
+
+# git merge <branch>: 
+Merges changes from one branch into the current branch.
+
+# git log: 
+Displays a log of all commits in the current branch.
+
+
+OTHERS:
+
+git diff: Shows changes between commits, the working directory, or branches.
+git remote -v: Lists all remote repositories and their URLs.
+git fetch: Fetches changes from a remote repository without merging.
+git reset <file>: Unstages changes in a file.
+git revert <commit>: Reverts a commit by creating a new commit.
+git log --oneline: Displays a simplified log with each commit on one line.
+git branch -a: Lists all local and remote branches.
+git merge --abort: Aborts a conflicted merge.
+git stash: Temporarily saves changes that are not ready to be committed.
+git tag <tagname>: Creates a new tag for the current commit.
+git remote add <name> <url>: Adds a new remote repository.
+git remote rm <name>: Removes a remote repository.
+git push -u <remote> <branch>: Sets up remote tracking for a branch.
+git pull --rebase: Fetches changes and rebases the current branch.
+git log --graph --oneline --all: Visualizes commit history as a graph.
+git show <commit>: Displays detailed information about a commit.
+git clean -n: Shows which untracked files would be removed by git clean.
+git bisect start: Initiates a binary search to find a specific commit.
+git blame <file>: Shows who last modified each line in a file.
